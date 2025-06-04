@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany, OrderedBulkOperation } from 'typeorm';
-import { Product } from 'src/products/product.entity';
+import { Product } from 'src/product/product.entity';
 import { Order } from 'src/order/order.entity';
 
 @Entity()
